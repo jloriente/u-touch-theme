@@ -1,0 +1,121 @@
+/*------------- #CRUMINA-DOUBLE-IMAGE --------------*/
+
+
+.crumina-double-image {
+  text-align: center;
+  position: relative;
+
+  img {
+	display: block;
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+	box-shadow: 30px 0 100px 0 rgba(0, 0, 0, 0.15);
+	margin: 0 auto;
+	z-index: 2;
+
+	&:first-child {
+	  position: relative;
+	  z-index: 2;
+	  /*-webkit-transform: translateZ(0) translate(0%, 0%) rotateY(30deg) rotateX(10deg);
+	  -moz-transform: translateZ(0) translate(0%, 0%) rotateY(30deg) rotateX(10deg);
+	  -ms-transform: translateZ(0) translate(0%, 0%) rotateY(30deg) rotateX(10deg);
+	  -o-transform: translateZ(0) translate(0%, 0%) rotateY(30deg) rotateX(10deg);
+	  transform: translateZ(0) translate(0%, 0%) rotateY(30deg) rotateX(10deg);
+	  -webkit-transition: all .5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	  -moz-transition: all .5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	  -o-transition: all .5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	  transition: all .5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	  -webkit-transition-delay: 0.2s;
+	  transition-delay: 0.2s;*/
+	}
+
+	&:last-child {
+	  box-shadow: none;
+	  position: absolute;
+	  bottom: 0;
+	  max-height: 100%;
+	  z-index: 1;
+	  /*-webkit-transform: translateZ(0) translate(0%, -50%) rotateY(30deg) rotateX(10deg);
+	  -moz-transform: translateZ(0) translate(0%, -50%) rotateY(30deg) rotateX(10deg);
+	  -ms-transform: translateZ(0) translate(0%, -50%) rotateY(30deg) rotateX(10deg);
+	  -o-transform: translateZ(0) translate(0%, -50%) rotateY(30deg) rotateX(10deg);
+	  transform: translateZ(0) translate(0%, -50%) rotateY(30deg) rotateX(10deg);
+	  -webkit-transition: all .5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	  -moz-transition: all .5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	  -o-transition: all .5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	  transition: all .5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	  -webkit-transition-delay: 0.4s;
+	  transition-delay: 0.4s;*/
+	}
+
+  }
+
+  /*&:hover {
+
+	img {
+	  &:first-child {
+		-webkit-transition: all 2.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+		-moz-transition: all 2.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+		-o-transition: all 2.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+		transition: all 2.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+		transition-delay: 0s;
+		-webkit-transition-delay: 0s;
+		transition-delay: 0s;
+		-webkit-transform: perspective(50em) translateZ(0) translate(0%,0%) rotateY(-20deg) rotateX(1deg);
+		-moz-transform: perspective(50em) translateZ(0) translate(0%,0%) rotateY(-20deg) rotateX(1deg);
+		-ms-transform: perspective(50em) translateZ(0) translate(0%,0%) rotateY(-20deg) rotateX(1deg);
+		-o-transform: perspective(50em) translateZ(0) translate(0%,0%) rotateY(-20deg) rotateX(1deg);
+		transform: perspective(50em) translateZ(0) translate(0%,0%) rotateY(-20deg) rotateX(1deg);
+	  }
+
+	  &:last-child {
+		-webkit-transition: all 2s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+		-moz-transition: all 2s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+		-o-transition: all 2s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+		transition: all 2s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+		transition-delay: 0s;
+		-webkit-transition-delay: 0s;
+		transition-delay: 0s;
+		-webkit-transform: perspective(50em) translateZ(0) translate(-20%, 0%) rotateY(0deg) rotateX(-2deg);
+		-moz-transform: perspective(50em) translateZ(0) translate(-20%, 0%) rotateY(0deg) rotateX(-2deg);
+		-ms-transform: perspective(50em) translateZ(0) translate(-20%, 0%) rotateY(0deg) rotateX(-2deg);
+		-o-transform: perspective(50em) translateZ(0) translate(-20%, 0%) rotateY(0deg) rotateX(-2deg);
+		transform: perspective(50em) translateZ(0) translate(-20%, 0%) rotateY(0deg) rotateX(-2deg);
+	  }
+	}
+  }*/
+}
+/*
+
+.crumina-double-image img:first-child {
+  -webkit-transition: all 1.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+  -moz-transition: all 1.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+  -o-transition: all 1.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+  transition: all 1.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+  transition-delay: 0s;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+  opacity: 1;
+  -webkit-transform: translateZ(0) translate(0%,0%) rotateY(40deg) rotateX(0deg);
+  -moz-transform: translateZ(0) translate(0%,0%) rotateY(40deg) rotateX(0deg);
+  -ms-transform: translateZ(0) translate(0%,0%) rotateY(40deg) rotateX(0deg);
+  -o-transform: translateZ(0) translate(0%,0%) rotateY(40deg) rotateX(0deg);
+  transform: translateZ(0) translate(0%,0%) rotateY(40deg) rotateX(0deg);
+}
+
+.crumina-double-image img:last-child {
+  -webkit-transition: all 1.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+  -moz-transition: all 1.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+  -o-transition: all 1.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+  transition: all 1.5s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+  transition-delay: 0s;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+  opacity: 1;
+  -webkit-transform: translateZ(0) translate(0%,0%) rotateY(0deg) rotateX(0deg);
+  -moz-transform: translateZ(0) translate(0%,0%) rotateY(0deg) rotateX(0deg);
+  -ms-transform: translateZ(0) translate(0%,0%) rotateY(0deg) rotateX(0deg);
+  -o-transform: translateZ(0) translate(0%,0%) rotateY(0deg) rotateX(0deg);
+  transform: translateZ(0) translate(0%,0%) rotateY(0deg) rotateX(0deg);
+}
+*/
